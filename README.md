@@ -2,7 +2,11 @@
 
 A Machine Learning Project integrated with Django to Remove Background from Images.
 
-## Installation:
+## Run with Docker:
+- docker build -t python-django-api .
+- docker run -p 8000:8000 python-django-api
+
+## Local Installation:
 
 - git clone https://github.com/xtealer/django-MLBGRemover
 - cd django-MLBGRemover
